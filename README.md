@@ -1,10 +1,10 @@
 * Mục tiêu:
-Thiết kế và xây dựng Data Warehouse nhiều tầng (Landing – Staging – Atomic) nhằm tích hợp và chuẩn hóa dữ liệu tài chính từ nhiều nguồn khác nhau bằng SQL Server và Python.
-Xây dựng quy trình ETL bằng Aiflow và Python để tự động trích xuất, làm sạch và tải dữ liệu vào kho dữ liệu, đảm bảo tính nhất quán và chất lượng dữ liệu.
-Thiết kế mô hình dữ liệu đa chiều phục vụ phân tích các chỉ số tài chính như Balance Sheet, Cash Flow, và Business
-Phát triển dashboard Power BI tương tác giúp trực quan hóa dữ liệu và phân tích hiệu quả kinh doanh theo nhiều chiều (thời gian, doanh nghiệp, chỉ tiêu tài chính).
-Tích hợp xây dựng Chatbot OpenAPI kết nối hệ thống dữ liệu dành cho người không chuyên về SQL có thể tạo ra các câu truy vấn, vẽ biểu đồ cơ bản.
-Tự động hóa cập nhật và phân phối báo cáo bằng Power BI Service và Power Automate, giúp giảm thời gian tổng hợp báo cáo thủ công và hỗ trợ ra quyết định nhanh hơn
++ Thiết kế và xây dựng Data Warehouse nhiều tầng (Landing – Staging – Atomic) nhằm tích hợp và chuẩn hóa dữ liệu tài chính từ nhiều nguồn khác nhau bằng SQL Server và Python.
++ Xây dựng quy trình ETL bằng Aiflow và Python để tự động trích xuất, làm sạch và tải dữ liệu vào kho dữ liệu, đảm bảo tính nhất quán và chất lượng dữ liệu.
++ Thiết kế mô hình dữ liệu đa chiều phục vụ phân tích các chỉ số tài chính như Balance Sheet, Cash Flow, và Business
++ Phát triển dashboard Power BI tương tác giúp trực quan hóa dữ liệu và phân tích hiệu quả kinh doanh theo nhiều chiều (thời gian, doanh nghiệp, chỉ tiêu tài chính).
++ Tích hợp xây dựng Chatbot OpenAPI kết nối hệ thống dữ liệu dành cho người không chuyên về SQL có thể tạo ra các câu truy vấn, vẽ biểu đồ cơ bản.
++ Tự động hóa cập nhật và phân phối báo cáo bằng Power BI Service và Power Automate, giúp giảm thời gian tổng hợp báo cáo thủ công và hỗ trợ ra quyết định nhanh hơn
 * Kiến trúc DWH:
 <img width="1083" height="498" alt="image" src="https://github.com/user-attachments/assets/e68d4631-dbf1-473b-8fb3-8519988d2f5c" />
 * Quy trình ETL:
